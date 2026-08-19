@@ -1,0 +1,3229 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+      - "/bin/"
+    searched_directories:
+      - "/home/beng/.local/bin/uname"
+      - "/home/beng/miniconda3/bin/uname"
+      - "/home/beng/miniconda3/condabin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 7.1.3-2-cachyos - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/beng/.local/bin/gmake"
+      - "/home/beng/miniconda3/bin/gmake"
+      - "/home/beng/miniconda3/condabin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/usr/bin/site_perl/gmake"
+      - "/usr/bin/vendor_perl/gmake"
+      - "/usr/bin/core_perl/gmake"
+      - "/home/beng/.local/bin/make"
+      - "/home/beng/miniconda3/bin/make"
+      - "/home/beng/miniconda3/condabin/make"
+      - "/usr/local/sbin/make"
+      - "/usr/local/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:115 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:71 (_cmake_find_compiler_path)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_WITH_PATH"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang++"
+    candidate_directories:
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/home/beng/.local/bin/clang++"
+      - "/home/beng/miniconda3/bin/clang++"
+      - "/home/beng/miniconda3/condabin/clang++"
+      - "/usr/local/sbin/clang++"
+      - "/usr/local/bin/clang++"
+    found: "/usr/bin/clang++"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/4.4.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar"
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib"
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-strip"
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-strip"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/ld.lld"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-nm"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-objdump"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-objcopy"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-readelf"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-dlltool"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/bin/llvm-addr2line"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:247 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/home/beng/.local/bin/tapi"
+      - "/home/beng/miniconda3/bin/tapi"
+      - "/home/beng/miniconda3/condabin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/bin/site_perl/tapi"
+      - "/usr/bin/vendor_perl/tapi"
+      - "/usr/bin/core_perl/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-22.1"
+      - "llvm-ar-22"
+      - "llvm-ar22"
+      - "llvm-ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-ar-22.1"
+      - "/home/beng/.local/bin/llvm-ar-22.1"
+      - "/home/beng/miniconda3/bin/llvm-ar-22.1"
+      - "/home/beng/miniconda3/condabin/llvm-ar-22.1"
+      - "/usr/local/sbin/llvm-ar-22.1"
+      - "/usr/local/bin/llvm-ar-22.1"
+      - "/usr/bin/site_perl/llvm-ar-22.1"
+      - "/usr/bin/vendor_perl/llvm-ar-22.1"
+      - "/usr/bin/core_perl/llvm-ar-22.1"
+      - "/usr/bin/llvm-ar-22"
+      - "/home/beng/.local/bin/llvm-ar-22"
+      - "/home/beng/miniconda3/bin/llvm-ar-22"
+      - "/home/beng/miniconda3/condabin/llvm-ar-22"
+      - "/usr/local/sbin/llvm-ar-22"
+      - "/usr/local/bin/llvm-ar-22"
+      - "/usr/bin/site_perl/llvm-ar-22"
+      - "/usr/bin/vendor_perl/llvm-ar-22"
+      - "/usr/bin/core_perl/llvm-ar-22"
+      - "/usr/bin/llvm-ar22"
+      - "/home/beng/.local/bin/llvm-ar22"
+      - "/home/beng/miniconda3/bin/llvm-ar22"
+      - "/home/beng/miniconda3/condabin/llvm-ar22"
+      - "/usr/local/sbin/llvm-ar22"
+      - "/usr/local/bin/llvm-ar22"
+      - "/usr/bin/site_perl/llvm-ar22"
+      - "/usr/bin/vendor_perl/llvm-ar22"
+      - "/usr/bin/core_perl/llvm-ar22"
+    found: "/usr/bin/llvm-ar"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-22.1"
+      - "llvm-ranlib-22"
+      - "llvm-ranlib22"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/llvm-ranlib-22.1"
+      - "/home/beng/.local/bin/llvm-ranlib-22.1"
+      - "/home/beng/miniconda3/bin/llvm-ranlib-22.1"
+      - "/home/beng/miniconda3/condabin/llvm-ranlib-22.1"
+      - "/usr/local/sbin/llvm-ranlib-22.1"
+      - "/usr/local/bin/llvm-ranlib-22.1"
+      - "/usr/bin/site_perl/llvm-ranlib-22.1"
+      - "/usr/bin/vendor_perl/llvm-ranlib-22.1"
+      - "/usr/bin/core_perl/llvm-ranlib-22.1"
+      - "/usr/bin/llvm-ranlib-22"
+      - "/home/beng/.local/bin/llvm-ranlib-22"
+      - "/home/beng/miniconda3/bin/llvm-ranlib-22"
+      - "/home/beng/miniconda3/condabin/llvm-ranlib-22"
+      - "/usr/local/sbin/llvm-ranlib-22"
+      - "/usr/local/bin/llvm-ranlib-22"
+      - "/usr/bin/site_perl/llvm-ranlib-22"
+      - "/usr/bin/vendor_perl/llvm-ranlib-22"
+      - "/usr/bin/core_perl/llvm-ranlib-22"
+      - "/usr/bin/llvm-ranlib22"
+      - "/home/beng/.local/bin/llvm-ranlib22"
+      - "/home/beng/miniconda3/bin/llvm-ranlib22"
+      - "/home/beng/miniconda3/condabin/llvm-ranlib22"
+      - "/usr/local/sbin/llvm-ranlib22"
+      - "/usr/local/bin/llvm-ranlib22"
+      - "/usr/bin/site_perl/llvm-ranlib22"
+      - "/usr/bin/vendor_perl/llvm-ranlib22"
+      - "/usr/bin/core_perl/llvm-ranlib22"
+    found: "/usr/bin/llvm-ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:4 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-22.1"
+      - "clang-scan-deps-22"
+      - "clang-scan-deps22"
+      - "clang-scan-deps"
+      - "clang-scan-deps-22.1"
+      - "clang-scan-deps-22"
+      - "clang-scan-deps22"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    searched_directories:
+      - "/usr/bin/clang-scan-deps-22.1"
+      - "/home/beng/.local/bin/clang-scan-deps-22.1"
+      - "/home/beng/miniconda3/bin/clang-scan-deps-22.1"
+      - "/home/beng/miniconda3/condabin/clang-scan-deps-22.1"
+      - "/usr/local/sbin/clang-scan-deps-22.1"
+      - "/usr/local/bin/clang-scan-deps-22.1"
+      - "/usr/bin/site_perl/clang-scan-deps-22.1"
+      - "/usr/bin/vendor_perl/clang-scan-deps-22.1"
+      - "/usr/bin/core_perl/clang-scan-deps-22.1"
+      - "/usr/bin/clang-scan-deps-22"
+      - "/home/beng/.local/bin/clang-scan-deps-22"
+      - "/home/beng/miniconda3/bin/clang-scan-deps-22"
+      - "/home/beng/miniconda3/condabin/clang-scan-deps-22"
+      - "/usr/local/sbin/clang-scan-deps-22"
+      - "/usr/local/bin/clang-scan-deps-22"
+      - "/usr/bin/site_perl/clang-scan-deps-22"
+      - "/usr/bin/vendor_perl/clang-scan-deps-22"
+      - "/usr/bin/core_perl/clang-scan-deps-22"
+      - "/usr/bin/clang-scan-deps22"
+      - "/home/beng/.local/bin/clang-scan-deps22"
+      - "/home/beng/miniconda3/bin/clang-scan-deps22"
+      - "/home/beng/miniconda3/condabin/clang-scan-deps22"
+      - "/usr/local/sbin/clang-scan-deps22"
+      - "/usr/local/bin/clang-scan-deps22"
+      - "/usr/bin/site_perl/clang-scan-deps22"
+      - "/usr/bin/vendor_perl/clang-scan-deps22"
+      - "/usr/bin/core_perl/clang-scan-deps22"
+    found: "/usr/bin/clang-scan-deps"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b2af/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_6b2af.dir/build.make CMakeFiles/cmTC_6b2af.dir/build
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy'
+        Building CXX object CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 22.1.8
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy -v -fcoverage-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward
+         /usr/lib/clang/22/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_6b2af
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b2af.dir/link.txt --verbose=1
+        clang version 22.1.8
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b2af /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.46.1
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6b2af
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/clang/22/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu] ==> [/usr/include/c++/16/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/clang/22/include] ==> [/usr/lib/clang/22/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-pc-linux-gnu;/usr/include/c++/16/backward;/usr/lib/clang/22/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6b2af/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_6b2af.dir/build.make CMakeFiles/cmTC_6b2af.dir/build]
+        ignore line: [make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy']
+        ignore line: [Building CXX object CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 22.1.8]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy -v -fcoverage-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-vQn8uy -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/clang/22/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_6b2af]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b2af.dir/link.txt --verbose=1]
+        ignore line: [clang version 22.1.8]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b2af /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b2af /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_6b2af /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_6b2af] ==> ignore
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_6b2af.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/16;/usr/lib64;/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.46.1
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "glm"
+    configs:
+      -
+        filename: "glm.cps"
+        kind: "cps"
+      -
+        filename: "glmConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "glm-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "glm"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/glmConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/glm-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/glm.cps"
+        mode: "cps"
+        reason: "no_exist"
+    found:
+      path: "/usr/lib/cmake/glm/glmConfig.cmake"
+      mode: "config"
+      version: "1.0.3"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/verilator/verilator-config.cmake:31 (find_program)"
+      - "CMakeLists.txt:11 (find_package)"
+    mode: "program"
+    variable: "VERILATOR_BIN"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "verilator_bin"
+      - "verilator_bin.exe"
+    candidate_directories:
+      - "/usr/share/verilator/bin/"
+      - "/home/beng/.local/bin/"
+      - "/home/beng/miniconda3/bin/"
+      - "/home/beng/miniconda3/condabin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/bin/"
+      - "/usr/bin/site_perl/"
+      - "/usr/bin/vendor_perl/"
+      - "/usr/bin/core_perl/"
+    found: "/usr/share/verilator/bin/verilator_bin"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _faligned_new"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_faligned_new"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_67637/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY'
+        /usr/bin/make  -f CMakeFiles/cmTC_67637.dir/build.make CMakeFiles/cmTC_67637.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY'
+        Building CXX object CMakeFiles/cmTC_67637.dir/src.cxx.o
+        /usr/bin/clang++ -D_faligned_new  -faligned-new -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_67637.dir/src.cxx.o -MF CMakeFiles/cmTC_67637.dir/src.cxx.o.d -o CMakeFiles/cmTC_67637.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_67637
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67637.dir/link.txt --verbose=1
+        /usr/bin/clang++  -faligned-new -Wno-error=cpp CMakeFiles/cmTC_67637.dir/src.cxx.o -o cmTC_67637
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-AuZ1yY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _fbracket_depth_4096"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_fbracket_depth_4096"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ce926/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H'
+        /usr/bin/make  -f CMakeFiles/cmTC_ce926.dir/build.make CMakeFiles/cmTC_ce926.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H'
+        Building CXX object CMakeFiles/cmTC_ce926.dir/src.cxx.o
+        /usr/bin/clang++ -D_fbracket_depth_4096  -fbracket-depth=4096 -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_ce926.dir/src.cxx.o -MF CMakeFiles/cmTC_ce926.dir/src.cxx.o.d -o CMakeFiles/cmTC_ce926.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_ce926
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce926.dir/link.txt --verbose=1
+        /usr/bin/clang++  -fbracket-depth=4096 -Wno-error=cpp CMakeFiles/cmTC_ce926.dir/src.cxx.o -o cmTC_ce926
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-kwCf4H'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _fcf_protection_none"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_fcf_protection_none"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1819/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM'
+        /usr/bin/make  -f CMakeFiles/cmTC_a1819.dir/build.make CMakeFiles/cmTC_a1819.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM'
+        Building CXX object CMakeFiles/cmTC_a1819.dir/src.cxx.o
+        /usr/bin/clang++ -D_fcf_protection_none  -fcf-protection=none -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_a1819.dir/src.cxx.o -MF CMakeFiles/cmTC_a1819.dir/src.cxx.o.d -o CMakeFiles/cmTC_a1819.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_a1819
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1819.dir/link.txt --verbose=1
+        /usr/bin/clang++  -fcf-protection=none -Wno-error=cpp CMakeFiles/cmTC_a1819.dir/src.cxx.o -o cmTC_a1819
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0eoCrM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Xclang"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Xclang"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ebb44/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd'
+        /usr/bin/make  -f CMakeFiles/cmTC_ebb44.dir/build.make CMakeFiles/cmTC_ebb44.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd'
+        Building CXX object CMakeFiles/cmTC_ebb44.dir/src.cxx.o
+        /usr/bin/clang++ -D_Xclang  -Xclang -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_ebb44.dir/src.cxx.o -MF CMakeFiles/cmTC_ebb44.dir/src.cxx.o.d -o CMakeFiles/cmTC_ebb44.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_ebb44
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebb44.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Xclang -Wno-error=cpp CMakeFiles/cmTC_ebb44.dir/src.cxx.o -o cmTC_ebb44
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-pXrNnd'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _fno_pch_timestamp"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_fno_pch_timestamp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_ccefb/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS'
+        /usr/bin/make  -f CMakeFiles/cmTC_ccefb.dir/build.make CMakeFiles/cmTC_ccefb.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS'
+        Building CXX object CMakeFiles/cmTC_ccefb.dir/src.cxx.o
+        /usr/bin/clang++ -D_fno_pch_timestamp  -fno-pch-timestamp -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_ccefb.dir/src.cxx.o -MF CMakeFiles/cmTC_ccefb.dir/src.cxx.o.d -o CMakeFiles/cmTC_ccefb.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS/src.cxx
+        clang++: error: unknown argument '-fno-pch-timestamp'; did you mean '-Xclang -fno-pch-timestamp'?
+        make[2]: *** [CMakeFiles/cmTC_ccefb.dir/build.make:82: CMakeFiles/cmTC_ccefb.dir/src.cxx.o] Error 1
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS'
+        make[1]: *** [Makefile:134: cmTC_ccefb/fast] Error 2
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-VKkJSS'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _mno_cet"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_mno_cet"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c6118/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7'
+        /usr/bin/make  -f CMakeFiles/cmTC_c6118.dir/build.make CMakeFiles/cmTC_c6118.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7'
+        Building CXX object CMakeFiles/cmTC_c6118.dir/src.cxx.o
+        /usr/bin/clang++ -D_mno_cet  -mno-cet -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_c6118.dir/src.cxx.o -MF CMakeFiles/cmTC_c6118.dir/src.cxx.o.d -o CMakeFiles/cmTC_c6118.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7/src.cxx
+        clang++: error: unknown argument: '-mno-cet'
+        make[2]: *** [CMakeFiles/cmTC_c6118.dir/build.make:82: CMakeFiles/cmTC_c6118.dir/src.cxx.o] Error 1
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7'
+        make[1]: *** [Makefile:134: cmTC_c6118/fast] Error 2
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-y22fF7'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Qunused_arguments"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Qunused_arguments"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5455a/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3'
+        /usr/bin/make  -f CMakeFiles/cmTC_5455a.dir/build.make CMakeFiles/cmTC_5455a.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3'
+        Building CXX object CMakeFiles/cmTC_5455a.dir/src.cxx.o
+        /usr/bin/clang++ -D_Qunused_arguments  -Qunused-arguments -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_5455a.dir/src.cxx.o -MF CMakeFiles/cmTC_5455a.dir/src.cxx.o.d -o CMakeFiles/cmTC_5455a.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_5455a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5455a.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Qunused-arguments -Wno-error=cpp CMakeFiles/cmTC_5455a.dir/src.cxx.o -o cmTC_5455a
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fT8im3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_bool_operation"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_bool_operation"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0961f/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME'
+        /usr/bin/make  -f CMakeFiles/cmTC_0961f.dir/build.make CMakeFiles/cmTC_0961f.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME'
+        Building CXX object CMakeFiles/cmTC_0961f.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_bool_operation  -Wno-bool-operation -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_0961f.dir/src.cxx.o -MF CMakeFiles/cmTC_0961f.dir/src.cxx.o.d -o CMakeFiles/cmTC_0961f.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_0961f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0961f.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-bool-operation -Wno-error=cpp CMakeFiles/cmTC_0961f.dir/src.cxx.o -o cmTC_0961f
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-0QC9ME'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_c__11_narrowing"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_c__11_narrowing"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2b4ab/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY'
+        /usr/bin/make  -f CMakeFiles/cmTC_2b4ab.dir/build.make CMakeFiles/cmTC_2b4ab.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY'
+        Building CXX object CMakeFiles/cmTC_2b4ab.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_c__11_narrowing  -Wno-c++11-narrowing -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_2b4ab.dir/src.cxx.o -MF CMakeFiles/cmTC_2b4ab.dir/src.cxx.o.d -o CMakeFiles/cmTC_2b4ab.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_2b4ab
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b4ab.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-c++11-narrowing -Wno-error=cpp CMakeFiles/cmTC_2b4ab.dir/src.cxx.o -o cmTC_2b4ab
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ku8bUY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_constant_logical_operand"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_constant_logical_operand"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1a9ca/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV'
+        /usr/bin/make  -f CMakeFiles/cmTC_1a9ca.dir/build.make CMakeFiles/cmTC_1a9ca.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV'
+        Building CXX object CMakeFiles/cmTC_1a9ca.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_constant_logical_operand  -Wno-constant-logical-operand -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_1a9ca.dir/src.cxx.o -MF CMakeFiles/cmTC_1a9ca.dir/src.cxx.o.d -o CMakeFiles/cmTC_1a9ca.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_1a9ca
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a9ca.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-constant-logical-operand -Wno-error=cpp CMakeFiles/cmTC_1a9ca.dir/src.cxx.o -o cmTC_1a9ca
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-XGHwwV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_int_in_bool_context"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_int_in_bool_context"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f6926/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU'
+        /usr/bin/make  -f CMakeFiles/cmTC_f6926.dir/build.make CMakeFiles/cmTC_f6926.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU'
+        Building CXX object CMakeFiles/cmTC_f6926.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_int_in_bool_context  -Wno-int-in-bool-context -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_f6926.dir/src.cxx.o -MF CMakeFiles/cmTC_f6926.dir/src.cxx.o.d -o CMakeFiles/cmTC_f6926.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_f6926
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6926.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-int-in-bool-context -Wno-error=cpp CMakeFiles/cmTC_f6926.dir/src.cxx.o -o cmTC_f6926
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ViYUcU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_non_pod_varargs"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_non_pod_varargs"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_962f0/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh'
+        /usr/bin/make  -f CMakeFiles/cmTC_962f0.dir/build.make CMakeFiles/cmTC_962f0.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh'
+        Building CXX object CMakeFiles/cmTC_962f0.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_non_pod_varargs  -Wno-non-pod-varargs -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_962f0.dir/src.cxx.o -MF CMakeFiles/cmTC_962f0.dir/src.cxx.o.d -o CMakeFiles/cmTC_962f0.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_962f0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_962f0.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-non-pod-varargs -Wno-error=cpp CMakeFiles/cmTC_962f0.dir/src.cxx.o -o cmTC_962f0
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-fV4SHh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_parentheses_equality"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_parentheses_equality"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_3c085/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR'
+        /usr/bin/make  -f CMakeFiles/cmTC_3c085.dir/build.make CMakeFiles/cmTC_3c085.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR'
+        Building CXX object CMakeFiles/cmTC_3c085.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_parentheses_equality  -Wno-parentheses-equality -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_3c085.dir/src.cxx.o -MF CMakeFiles/cmTC_3c085.dir/src.cxx.o.d -o CMakeFiles/cmTC_3c085.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_3c085
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c085.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-parentheses-equality -Wno-error=cpp CMakeFiles/cmTC_3c085.dir/src.cxx.o -o cmTC_3c085
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-oGissR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_shadow"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_shadow"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_74f19/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh'
+        /usr/bin/make  -f CMakeFiles/cmTC_74f19.dir/build.make CMakeFiles/cmTC_74f19.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh'
+        Building CXX object CMakeFiles/cmTC_74f19.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_shadow  -Wno-shadow -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_74f19.dir/src.cxx.o -MF CMakeFiles/cmTC_74f19.dir/src.cxx.o.d -o CMakeFiles/cmTC_74f19.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_74f19
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74f19.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-shadow -Wno-error=cpp CMakeFiles/cmTC_74f19.dir/src.cxx.o -o cmTC_74f19
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zk4Ekh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_sign_compare"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_sign_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_585bd/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV'
+        /usr/bin/make  -f CMakeFiles/cmTC_585bd.dir/build.make CMakeFiles/cmTC_585bd.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV'
+        Building CXX object CMakeFiles/cmTC_585bd.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_sign_compare  -Wno-sign-compare -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_585bd.dir/src.cxx.o -MF CMakeFiles/cmTC_585bd.dir/src.cxx.o.d -o CMakeFiles/cmTC_585bd.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_585bd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_585bd.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-sign-compare -Wno-error=cpp CMakeFiles/cmTC_585bd.dir/src.cxx.o -o cmTC_585bd
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-uUGwyV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_subobject_linkage"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_subobject_linkage"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0f6f3/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk'
+        /usr/bin/make  -f CMakeFiles/cmTC_0f6f3.dir/build.make CMakeFiles/cmTC_0f6f3.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk'
+        Building CXX object CMakeFiles/cmTC_0f6f3.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_subobject_linkage  -Wno-subobject-linkage -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_0f6f3.dir/src.cxx.o -MF CMakeFiles/cmTC_0f6f3.dir/src.cxx.o.d -o CMakeFiles/cmTC_0f6f3.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk/src.cxx
+        warning: unknown warning option '-Wno-subobject-linkage' [-Wunknown-warning-option]
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        2 warnings generated.
+        Linking CXX executable cmTC_0f6f3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6f3.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-subobject-linkage -Wno-error=cpp CMakeFiles/cmTC_0f6f3.dir/src.cxx.o -o cmTC_0f6f3
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-jCDjGk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_bitwise_compare"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_tautological_bitwise_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_23010/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU'
+        /usr/bin/make  -f CMakeFiles/cmTC_23010.dir/build.make CMakeFiles/cmTC_23010.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU'
+        Building CXX object CMakeFiles/cmTC_23010.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_tautological_bitwise_compare  -Wno-tautological-bitwise-compare -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_23010.dir/src.cxx.o -MF CMakeFiles/cmTC_23010.dir/src.cxx.o.d -o CMakeFiles/cmTC_23010.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_23010
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_23010.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-tautological-bitwise-compare -Wno-error=cpp CMakeFiles/cmTC_23010.dir/src.cxx.o -o cmTC_23010
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-p152EU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_tautological_compare"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_tautological_compare"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_10634/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb'
+        /usr/bin/make  -f CMakeFiles/cmTC_10634.dir/build.make CMakeFiles/cmTC_10634.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb'
+        Building CXX object CMakeFiles/cmTC_10634.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_tautological_compare  -Wno-tautological-compare -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_10634.dir/src.cxx.o -MF CMakeFiles/cmTC_10634.dir/src.cxx.o.d -o CMakeFiles/cmTC_10634.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_10634
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10634.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-tautological-compare -Wno-error=cpp CMakeFiles/cmTC_10634.dir/src.cxx.o -o cmTC_10634
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8MvPyb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_uninitialized"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_uninitialized"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f99d2/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf'
+        /usr/bin/make  -f CMakeFiles/cmTC_f99d2.dir/build.make CMakeFiles/cmTC_f99d2.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf'
+        Building CXX object CMakeFiles/cmTC_f99d2.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_uninitialized  -Wno-uninitialized -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_f99d2.dir/src.cxx.o -MF CMakeFiles/cmTC_f99d2.dir/src.cxx.o.d -o CMakeFiles/cmTC_f99d2.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_f99d2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f99d2.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-uninitialized -Wno-error=cpp CMakeFiles/cmTC_f99d2.dir/src.cxx.o -o cmTC_f99d2
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-SZ5HWf'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_unnecessary_virtual_specifier"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_unnecessary_virtual_specifier"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_17bd6/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm'
+        /usr/bin/make  -f CMakeFiles/cmTC_17bd6.dir/build.make CMakeFiles/cmTC_17bd6.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm'
+        Building CXX object CMakeFiles/cmTC_17bd6.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_unnecessary_virtual_specifier  -Wno-unnecessary-virtual-specifier -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_17bd6.dir/src.cxx.o -MF CMakeFiles/cmTC_17bd6.dir/src.cxx.o.d -o CMakeFiles/cmTC_17bd6.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_17bd6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17bd6.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-unnecessary-virtual-specifier -Wno-error=cpp CMakeFiles/cmTC_17bd6.dir/src.cxx.o -o cmTC_17bd6
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-hwBUzm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_parameter"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_unused_but_set_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_99d5a/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq'
+        /usr/bin/make  -f CMakeFiles/cmTC_99d5a.dir/build.make CMakeFiles/cmTC_99d5a.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq'
+        Building CXX object CMakeFiles/cmTC_99d5a.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_unused_but_set_parameter  -Wno-unused-but-set-parameter -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_99d5a.dir/src.cxx.o -MF CMakeFiles/cmTC_99d5a.dir/src.cxx.o.d -o CMakeFiles/cmTC_99d5a.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_99d5a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99d5a.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-unused-but-set-parameter -Wno-error=cpp CMakeFiles/cmTC_99d5a.dir/src.cxx.o -o cmTC_99d5a
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-zMTIvq'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_but_set_variable"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_unused_but_set_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_045e5/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi'
+        /usr/bin/make  -f CMakeFiles/cmTC_045e5.dir/build.make CMakeFiles/cmTC_045e5.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi'
+        Building CXX object CMakeFiles/cmTC_045e5.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_unused_but_set_variable  -Wno-unused-but-set-variable -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_045e5.dir/src.cxx.o -MF CMakeFiles/cmTC_045e5.dir/src.cxx.o.d -o CMakeFiles/cmTC_045e5.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_045e5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_045e5.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-unused-but-set-variable -Wno-error=cpp CMakeFiles/cmTC_045e5.dir/src.cxx.o -o cmTC_045e5
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-8HSfTi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_parameter"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_unused_parameter"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8be9/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt'
+        /usr/bin/make  -f CMakeFiles/cmTC_b8be9.dir/build.make CMakeFiles/cmTC_b8be9.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt'
+        Building CXX object CMakeFiles/cmTC_b8be9.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_unused_parameter  -Wno-unused-parameter -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_b8be9.dir/src.cxx.o -MF CMakeFiles/cmTC_b8be9.dir/src.cxx.o.d -o CMakeFiles/cmTC_b8be9.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_b8be9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8be9.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-unused-parameter -Wno-error=cpp CMakeFiles/cmTC_b8be9.dir/src.cxx.o -o cmTC_b8be9
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-dEcaKt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_unused_variable"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_unused_variable"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_30eeb/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt'
+        /usr/bin/make  -f CMakeFiles/cmTC_30eeb.dir/build.make CMakeFiles/cmTC_30eeb.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt'
+        Building CXX object CMakeFiles/cmTC_30eeb.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_unused_variable  -Wno-unused-variable -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_30eeb.dir/src.cxx.o -MF CMakeFiles/cmTC_30eeb.dir/src.cxx.o.d -o CMakeFiles/cmTC_30eeb.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_30eeb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30eeb.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-unused-variable -Wno-error=cpp CMakeFiles/cmTC_30eeb.dir/src.cxx.o -o cmTC_30eeb
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZbscDt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:89 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:107 (_verilator_check_cxx_compiler_flag)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _Wno_vla_cxx_extension"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_Wno_vla_cxx_extension"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_79504/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V'
+        /usr/bin/make  -f CMakeFiles/cmTC_79504.dir/build.make CMakeFiles/cmTC_79504.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V'
+        Building CXX object CMakeFiles/cmTC_79504.dir/src.cxx.o
+        /usr/bin/clang++ -D_Wno_vla_cxx_extension  -Wno-vla-cxx-extension -Wno-error=cpp -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_79504.dir/src.cxx.o -MF CMakeFiles/cmTC_79504.dir/src.cxx.o.d -o CMakeFiles/cmTC_79504.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V/src.cxx
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V/src.cxx:2:10: warning: warning [-W#warnings]
+            2 |         #warning warning
+              |          ^
+        1 warning generated.
+        Linking CXX executable cmTC_79504
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79504.dir/link.txt --verbose=1
+        /usr/bin/clang++  -Wno-vla-cxx-extension -Wno-error=cpp CMakeFiles/cmTC_79504.dir/src.cxx.o -o cmTC_79504
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-GrOV5V'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _mt"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_mt"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6becb/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS'
+        /usr/bin/make  -f CMakeFiles/cmTC_6becb.dir/build.make CMakeFiles/cmTC_6becb.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS'
+        Building CXX object CMakeFiles/cmTC_6becb.dir/src.cxx.o
+        /usr/bin/clang++ -D_mt  -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_6becb.dir/src.cxx.o -MF CMakeFiles/cmTC_6becb.dir/src.cxx.o.d -o CMakeFiles/cmTC_6becb.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS/src.cxx
+        Linking CXX executable cmTC_6becb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6becb.dir/link.txt --verbose=1
+        clang++: error: unknown argument: '-mt'
+        /usr/bin/clang++ CMakeFiles/cmTC_6becb.dir/src.cxx.o -o cmTC_6becb  -mt
+        make[2]: *** [CMakeFiles/cmTC_6becb.dir/build.make:103: cmTC_6becb] Error 1
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS'
+        make[1]: *** [Makefile:134: cmTC_6becb/fast] Error 2
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-ZeHXfS'
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _pthread"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_pthread"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_1037f/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL'
+        /usr/bin/make  -f CMakeFiles/cmTC_1037f.dir/build.make CMakeFiles/cmTC_1037f.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL'
+        Building CXX object CMakeFiles/cmTC_1037f.dir/src.cxx.o
+        /usr/bin/clang++ -D_pthread  -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_1037f.dir/src.cxx.o -MF CMakeFiles/cmTC_1037f.dir/src.cxx.o.d -o CMakeFiles/cmTC_1037f.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL/src.cxx
+        Linking CXX executable cmTC_1037f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1037f.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_1037f.dir/src.cxx.o -o cmTC_1037f  -pthread
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-sbCpgL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _lpthread"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_lpthread"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_efbee/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD'
+        /usr/bin/make  -f CMakeFiles/cmTC_efbee.dir/build.make CMakeFiles/cmTC_efbee.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD'
+        Building CXX object CMakeFiles/cmTC_efbee.dir/src.cxx.o
+        /usr/bin/clang++ -D_lpthread  -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_efbee.dir/src.cxx.o -MF CMakeFiles/cmTC_efbee.dir/src.cxx.o.d -o CMakeFiles/cmTC_efbee.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD/src.cxx
+        Linking CXX executable cmTC_efbee
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_efbee.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_efbee.dir/src.cxx.o -o cmTC_efbee  -lpthread
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-KyNzsD'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:138 (try_compile)"
+      - "/usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:64 (check_cxx_source_compiles)"
+      - "/usr/share/verilator/verilator-config.cmake:114 (_verilator_check_cxx_libraries)"
+      - "CMakeLists.txt:11 (find_package)"
+    checks:
+      - "Performing Test _latomic"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "_latomic"
+      cached: true
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_32408/fast
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ'
+        /usr/bin/make  -f CMakeFiles/cmTC_32408.dir/build.make CMakeFiles/cmTC_32408.dir/build
+        make[2]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ'
+        Building CXX object CMakeFiles/cmTC_32408.dir/src.cxx.o
+        /usr/bin/clang++ -D_latomic  -std=gnu++20 -fPIE -MD -MT CMakeFiles/cmTC_32408.dir/src.cxx.o -MF CMakeFiles/cmTC_32408.dir/src.cxx.o.d -o CMakeFiles/cmTC_32408.dir/src.cxx.o -c /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ/src.cxx
+        Linking CXX executable cmTC_32408
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32408.dir/link.txt --verbose=1
+        /usr/bin/clang++ CMakeFiles/cmTC_32408.dir/src.cxx.o -o cmTC_32408  -latomic
+        make[2]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ'
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-RLK2XJ'
+        
+      exitCode: 0
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:11 (find_package)"
+    name: "verilator"
+    configs:
+      -
+        filename: "verilator.cps"
+        kind: "cps"
+      -
+        filename: "verilatorConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "verilator-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "verilator"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/lib/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/share/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/lib/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/share/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/lib/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/share/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/lib/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/condabin/share/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/lib/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/local/share/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/verilator-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/lib/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/cps/verilator.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/usr/share/verilator/verilatorConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/usr/share/verilator/verilator-config.cmake"
+      mode: "config"
+      version: "5.050"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:12 (find_package)"
+    name: "fmt"
+    configs:
+      -
+        filename: "fmt.cps"
+        kind: "cps"
+      -
+        filename: "fmtConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "fmt-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "fmt"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/lib/cps/fmt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/pkgRedirects/share/cps/fmt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/lib/cps/fmt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/.local/share/cps/fmt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/fmt-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/lib/cps/fmt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/share/cps/fmt.cps"
+        mode: "cps"
+        reason: "no_exist"
+      -
+        path: "/home/beng/miniconda3/lib/cmake/fmt/fmtConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/beng/miniconda3/lib/cmake/fmt/fmt-config.cmake"
+      mode: "config"
+      version: "12.1.0"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Linux - 7.1.3-2-cachyos - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:501 (find_file)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:538 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake/Modules/"
+    found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/miniconda3/envs/mica/bin"
+        - "/home/beng/miniconda3/condabin"
+        - "/home/beng/.local/bin"
+        - "/home/beng/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/bin"
+        - "/usr/bin/site_perl"
+        - "/usr/bin/vendor_perl"
+        - "/usr/bin/core_perl"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/clang++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is Clang, found in:
+        /home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/4.4.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:123 (try_compile)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi"
+      binary: "/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps"
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: false
+      stdout: |
+        Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f16f6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f16f6.dir/build.make CMakeFiles/cmTC_f16f6.dir/build
+        make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi'
+        Building CXX object CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang version 22.1.8
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         (in-process)
+         "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi -v -fcoverage-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu
+        ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"
+        ignoring nonexistent directory "/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu
+         /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward
+         /usr/lib/clang/22/include
+         /usr/local/include
+         /usr/include
+        End of search list.
+        Linking CXX executable cmTC_f16f6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f16f6.dir/link.txt --verbose=1
+        clang version 22.1.8
+        Target: x86_64-pc-linux-gnu
+        Thread model: posix
+        InstalledDir: /usr/bin
+        Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16
+        Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16
+        Candidate multilib: .;@m64
+        Candidate multilib: 32;@m32
+        Selected multilib: .;@m64
+         "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f16f6 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o
+        GNU ld (GNU Binutils) 2.47
+        /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_f16f6
+        make[1]: Leaving directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:255 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+          add: [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+          add: [/usr/lib/clang/22/include]
+          add: [/usr/local/include]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16] ==> [/usr/include/c++/16]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu] ==> [/usr/include/c++/16/x86_64-pc-linux-gnu]
+        collapse include dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward] ==> [/usr/include/c++/16/backward]
+        collapse include dir [/usr/lib/clang/22/include] ==> [/usr/lib/clang/22/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/16;/usr/include/c++/16/x86_64-pc-linux-gnu;/usr/include/c++/16/backward;/usr/lib/clang/22/include;/usr/local/include;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:291 (message)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
+        ignore line: [Change Dir: '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f16f6/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_f16f6.dir/build.make CMakeFiles/cmTC_f16f6.dir/build]
+        ignore line: [make[1]: Entering directory '/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang version 22.1.8]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "/usr/bin/clang++" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi -v -fcoverage-compilation-dir=/home/beng/Documents/tree_maker_l_systems/build/CMakeFiles/CMakeScratch/TryCompile-3V8YUi -resource-dir /usr/lib/clang/22 -dependency-file CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward -internal-isystem /usr/lib/clang/22/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -fdwarf2-cfi-asm -o CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 22.1.8 based upon LLVM 22.1.8 default target x86_64-pc-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [ignoring nonexistent directory "/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/x86_64-pc-linux-gnu]
+        ignore line: [ /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../include/c++/16/backward]
+        ignore line: [ /usr/lib/clang/22/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_f16f6]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f16f6.dir/link.txt --verbose=1]
+        ignore line: [clang version 22.1.8]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /usr/bin]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Found candidate GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Selected GCC installation: /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Candidate multilib: 32]
+        ignore line: [@m32]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f16f6 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f16f6 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> linker architecture flags [-m;elf]
+        link line: [ "/usr/bin/ld" --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_f16f6 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64 -L/lib/../lib64 -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+          arg [/usr/bin/ld] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f16f6] ==> ignore
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16]
+          arg [-L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64] ==> dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib64] ==> dir [/usr/lib64]
+          arg [-L/lib] ==> dir [/lib]
+          arg [-L/usr/lib] ==> dir [/usr/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f16f6.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+          arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld -m;elf
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/Scrt1.o] ==> [/usr/lib64/Scrt1.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crti.o] ==> [/usr/lib64/crti.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
+        collapse obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64/crtn.o] ==> [/usr/lib64/crtn.o]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16] ==> [/usr/lib64/gcc/x86_64-pc-linux-gnu/16]
+        collapse library dir [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/16/../../../../lib64] ==> [/usr/lib64]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib64] ==> [/usr/lib64]
+        collapse library dir [/lib] ==> [/lib]
+        collapse library dir [/usr/lib] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib64/Scrt1.o;/usr/lib64/crti.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o;/usr/lib64/gcc/x86_64-pc-linux-gnu/16/crtendS.o;/usr/lib64/crtn.o]
+        implicit dirs: [/usr/lib64/gcc/x86_64-pc-linux-gnu/16;/usr/lib64;/lib64;/lib;/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:41 (message)"
+      - "/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:337 (cmake_determine_linker_id)"
+      - "/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.47
+...

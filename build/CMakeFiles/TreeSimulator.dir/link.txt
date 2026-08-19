@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -Xlinker --dependency-file=CMakeFiles/TreeSimulator.dir/link.d CMakeFiles/TreeSimulator.dir/src/main.cpp.o CMakeFiles/TreeSimulator.dir/src/meristem.cpp.o CMakeFiles/TreeSimulator.dir/src/phyllotaxis.cpp.o CMakeFiles/TreeSimulator.dir/src/plant_architecture.cpp.o -o TreeSimulator  /usr/lib/libglm.a -lraylib
